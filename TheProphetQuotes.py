@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 from streamlit_extras.buy_me_a_coffee import button
-from streamlit_extras.buy_me_a_coffee import button
+
 
 def main():
 
