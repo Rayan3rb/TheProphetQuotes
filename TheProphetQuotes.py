@@ -49,12 +49,7 @@ def main():
         "إن اللهَ يُحبُّ الملحِّين في الدعاءِ","لا تَعْجِزُوا في الدعاءِ ، فإنه لن يَهْلِكَ مع الدعاءِ أَحَدٌ","إنَّ الرَّجُلَ ليُحرَمُ الرِّزقَ بالذَّنبِ يُصيبُه، ولا يَرُدُّ القَدَرَ إلَّا الدُّعاءُ، ولا يَزيدُ في العُمُرِ إلَّا البِرُّ","لايغني حذر من قدر. والدعاء بنفع ممانزل ومما لم بنزل، وان البلاء لينزل فيلقاه الدعاء فيعتلجانالى يوم القيامة",
     ]
 
-    
-    col1, col2, col3, col4, col5 = st.columns([1,1,2,1,1])
-    with col3:
-        center_button = st.button('رسالة   اليوم')
-
-    if center_button:
+    if st.button('رسالة   اليوم'):
         st.markdown("<hr style='border:4px solid lightgrey'>", unsafe_allow_html=True)
         st.markdown(f"<p style='text-align: center; color: #335575; font-size: 28px;'>{random.choice(QUOTES)}</p>", unsafe_allow_html=True)
         st.markdown("<hr style='border:4px solid lightgrey'>", unsafe_allow_html=True)
