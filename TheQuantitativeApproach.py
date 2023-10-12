@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import io
 from streamlit_extras.mention import mention
 
+
 def main():
 
     st.markdown("<h1 style='text-align: center; color: #335575;'>Quantitative Approach for Stocks & Portfolio Analysis</h1>", unsafe_allow_html=True)
