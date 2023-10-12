@@ -6,7 +6,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import io
 from streamlit_extras.mention import mention
-from streamlit_extras.tags import tagger_component
 
 def main():
 
