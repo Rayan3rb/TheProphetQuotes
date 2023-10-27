@@ -57,6 +57,7 @@ def main():
         st.markdown("<p> </p>", unsafe_allow_html=True)
         st.markdown("<p> </p>", unsafe_allow_html=True)
         st.markdown("<p> </p>", unsafe_allow_html=True)
+        st.markdown("<p> </p>", unsafe_allow_html=True)
         
         st.markdown("<p style='text-align: center; font-size: 16px;'><a href='https://twitter.com/RayanArab7' target='_blank'>ريان عرب</a></p>", unsafe_allow_html=True)
         
