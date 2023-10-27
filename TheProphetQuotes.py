@@ -2,7 +2,6 @@ import streamlit as st
 import random
 from streamlit_extras.buy_me_a_coffee import button
 
-
 def main():
 
     custom_css = """
@@ -62,12 +61,5 @@ def main():
         st.markdown("<p style='text-align: center; font-size: 16px;'><a href='https://twitter.com/RayanArab7' target='_blank'>ريان عرب</a></p>", unsafe_allow_html=True)
         
         button(username="rayan3rab7", floating=False, width=221)
-
-    st.markdown("<p style='text-align: center; color: grey; font-size: 16px;'>:المصادر</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: grey; font-size: 14px;'> كتاب مختصر سيرة الرسول ﷺ للشيخ عبدالله بن محمد بن عبدالوهاب</p>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; color: grey; font-size: 14px;'>كتاب الداء والدواء للامام محمد الدمشقي</p>", unsafe_allow_html=True)
-
-    
-
 if __name__ == "__main__":
     main()
